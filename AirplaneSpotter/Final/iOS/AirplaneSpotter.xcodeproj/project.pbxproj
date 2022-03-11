@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2C4B822487E35F00FB45B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C4B812487E35F00FB45B5 /* AppDelegate.swift */; };
+		4C2C4B842487E35F00FB45B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C4B832487E35F00FB45B5 /* SceneDelegate.swift */; };
+		4C2C4B862487E35F00FB45B5 /* FlightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C4B852487E35F00FB45B5 /* FlightsViewController.swift */; };
+		4C2C4B8B2487E36200FB45B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C4B8A2487E36200FB45B5 /* Assets.xcassets */; };
+		4C2C4B8E2487E36200FB45B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C4B8C2487E36200FB45B5 /* LaunchScreen.storyboard */; };
+		4C2C4B992487E54D00FB45B5 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C4B982487E54D00FB45B5 /* Shared.swift */; };
+		4C2C4B9B2487E5C600FB45B5 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C4B9A2487E5C600FB45B5 /* DetailTableViewCell.swift */; };
+		4C2C4B9D2487E94E00FB45B5 /* NotificationsSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C4B9C2487E94E00FB45B5 /* NotificationsSettingsViewController.swift */; };
+		4C2C4B9F2487F02C00FB45B5 /* Device+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C4B9E2487F02C00FB45B5 /* Device+Extensions.swift */; };
+		4C2C4BBA248A94C500FB45B5 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C4BB9248A94C500FB45B5 /* Networking.swift */; };
+		4C2C4BBC248A9B8F00FB45B5 /* Cessna.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C4BBB248A9B8F00FB45B5 /* Cessna.aiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C2C4B7E2487E35F00FB45B5 /* AirplaneSpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirplaneSpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2C4B812487E35F00FB45B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C2C4B832487E35F00FB45B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C2C4B852487E35F00FB45B5 /* FlightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewController.swift; sourceTree = "<group>"; };
+		4C2C4B8A2487E36200FB45B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C2C4B8D2487E36200FB45B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C2C4B8F2487E36200FB45B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2C4B982487E54D00FB45B5 /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shared.swift; path = ../../Shared/Sources/Shared/Shared.swift; sourceTree = "<group>"; };
+		4C2C4B9A2487E5C600FB45B5 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		4C2C4B9C2487E94E00FB45B5 /* NotificationsSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsSettingsViewController.swift; sourceTree = "<group>"; };
+		4C2C4B9E2487F02C00FB45B5 /* Device+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+Extensions.swift"; sourceTree = "<group>"; };
+		4C2C4BA02487F4F200FB45B5 /* AirplaneSpotter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirplaneSpotter.entitlements; sourceTree = "<group>"; };
+		4C2C4BB9248A94C500FB45B5 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		4C2C4BBB248A9B8F00FB45B5 /* Cessna.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Cessna.aiff; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C2C4B7B2487E35F00FB45B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C2C4B752487E35F00FB45B5 = {
+			isa = PBXGroup;
+			children = (
+				4C2C4B802487E35F00FB45B5 /* AirplaneSpotter */,
+				4C2C4B7F2487E35F00FB45B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C2C4B7F2487E35F00FB45B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2C4B7E2487E35F00FB45B5 /* AirplaneSpotter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2C4B802487E35F00FB45B5 /* AirplaneSpotter */ = {
+			isa = PBXGroup;
+			children = (
+				4C2C4BA02487F4F200FB45B5 /* AirplaneSpotter.entitlements */,
+				4C2C4B982487E54D00FB45B5 /* Shared.swift */,
+				4C2C4B812487E35F00FB45B5 /* AppDelegate.swift */,
+				4C2C4B832487E35F00FB45B5 /* SceneDelegate.swift */,
+				4C2C4B852487E35F00FB45B5 /* FlightsViewController.swift */,
+				4C2C4B9C2487E94E00FB45B5 /* NotificationsSettingsViewController.swift */,
+				4C2C4B9E2487F02C00FB45B5 /* Device+Extensions.swift */,
+				4C2C4B9A2487E5C600FB45B5 /* DetailTableViewCell.swift */,
+				4C2C4BB9248A94C500FB45B5 /* Networking.swift */,
+				4C2C4BBB248A9B8F00FB45B5 /* Cessna.aiff */,
+				4C2C4B8A2487E36200FB45B5 /* Assets.xcassets */,
+				4C2C4B8C2487E36200FB45B5 /* LaunchScreen.storyboard */,
+				4C2C4B8F2487E36200FB45B5 /* Info.plist */,
+			);
+			path = AirplaneSpotter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C2C4B7D2487E35F00FB45B5 /* AirplaneSpotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2C4B922487E36200FB45B5 /* Build configuration list for PBXNativeTarget "AirplaneSpotter" */;
+			buildPhases = (
+				4C2C4B7A2487E35F00FB45B5 /* Sources */,
+				4C2C4B7B2487E35F00FB45B5 /* Frameworks */,
+				4C2C4B7C2487E35F00FB45B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirplaneSpotter;
+			packageProductDependencies = (
+			);
+			productName = "SSS-PushNotifications";
+			productReference = 4C2C4B7E2487E35F00FB45B5 /* AirplaneSpotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C2C4B762487E35F00FB45B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1310;
+				ORGANIZATIONNAME = RayWenderlich;
+				TargetAttributes = {
+					4C2C4B7D2487E35F00FB45B5 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 4C2C4B792487E35F00FB45B5 /* Build configuration list for PBXProject "AirplaneSpotter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C2C4B752487E35F00FB45B5;
+			packageReferences = (
+			);
+			productRefGroup = 4C2C4B7F2487E35F00FB45B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C2C4B7D2487E35F00FB45B5 /* AirplaneSpotter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2C4B7C2487E35F00FB45B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2C4B8E2487E36200FB45B5 /* LaunchScreen.storyboard in Resources */,
+				4C2C4B8B2487E36200FB45B5 /* Assets.xcassets in Resources */,
+				4C2C4BBC248A9B8F00FB45B5 /* Cessna.aiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C2C4B7A2487E35F00FB45B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2C4B862487E35F00FB45B5 /* FlightsViewController.swift in Sources */,
+				4C2C4B822487E35F00FB45B5 /* AppDelegate.swift in Sources */,
+				4C2C4B992487E54D00FB45B5 /* Shared.swift in Sources */,
+				4C2C4BBA248A94C500FB45B5 /* Networking.swift in Sources */,
+				4C2C4B9F2487F02C00FB45B5 /* Device+Extensions.swift in Sources */,
+				4C2C4B9D2487E94E00FB45B5 /* NotificationsSettingsViewController.swift in Sources */,
+				4C2C4B9B2487E5C600FB45B5 /* DetailTableViewCell.swift in Sources */,
+				4C2C4B842487E35F00FB45B5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C2C4B8C2487E36200FB45B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2C4B8D2487E36200FB45B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C2C4B902487E36200FB45B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C2C4B912487E36200FB45B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C2C4B932487E36200FB45B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AirplaneSpotter/AirplaneSpotter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7X639V2D7;
+				INFOPLIST_FILE = AirplaneSpotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.civilgistics.airplanespotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C2C4B942487E36200FB45B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AirplaneSpotter/AirplaneSpotter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7X639V2D7;
+				INFOPLIST_FILE = AirplaneSpotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.civilgistics.airplanespotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C2C4B792487E35F00FB45B5 /* Build configuration list for PBXProject "AirplaneSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2C4B902487E36200FB45B5 /* Debug */,
+				4C2C4B912487E36200FB45B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2C4B922487E36200FB45B5 /* Build configuration list for PBXNativeTarget "AirplaneSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2C4B932487E36200FB45B5 /* Debug */,
+				4C2C4B942487E36200FB45B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C2C4B762487E35F00FB45B5 /* Project object */;
+}
